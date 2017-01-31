@@ -47,8 +47,6 @@ d3.json("json/collection.json", function(error, data) {
 
     }
 
-    console.log(records);
-
     records.push(record);
 
   }
