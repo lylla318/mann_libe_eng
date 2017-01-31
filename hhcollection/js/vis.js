@@ -12,7 +12,7 @@
 var records = [];
 
 
-d3.json("collection.json", function(error, data) {
+d3.json("json/collection.json", function(error, data) {
   data = (data.collection).record;
   var keys = Object.keys(data);
 
